@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.35;
+   
+ 
+    
+}
+.sidebar_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;  
+
+}
+.sidebar_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.sidebar_search{
+    display: flex;
+    align-items: center;
+    background-color: #f6f6f6;
+    height: 39px;
+    padding: 10px;
+  }
+  .serachicon{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .serachicon > input{
+    border: none;
+    outline-width: 0;
+    margin-left: 10px;
+  }
+  .sidebar_chats{
+       flex: 1;
+       background-color: white;
+      overflow: scroll;
+       
+       
+
+  }
+  .room_btn{
+   
+    padding: 4px;
+    margin-left: 30px;
+    margin: 10px;
+
+  }
+  .auther{
+    border: none;
+    border-style: none;
+    padding: 7px;
+
+    outline-offset: 0;
+
+  }
+  .room{
+    border: none;
+    border-style: none;
+    padding: 7px;
+    
+    outline-offset: 0;
+
+  }
+  .sidebarchats{
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+
+}
+.room_btn{
+  margin-left: 10px;
+  
+ 
+  text-align: center;
+
+}
+.sidebarchats:hover{
+    background-color: #ebebeb;
+}
+.sidebar_chatinfo >h2{
+   font-size: 16px;
+  
+}
+.sidebar_chatinfo{
+    margin-left: 15px;
+   
+}
+.sidebar_chatinfo > h2{
+margin-top: 20px;
+}
