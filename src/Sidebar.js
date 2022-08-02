@@ -80,9 +80,7 @@ export default function Sidebar({ socket }) {
         {chatlist.map((val, key) => {
           return (
             <div className="sidebarchats" onClick={() => sidebarchat(val.room)}>
-              <IconButton>
-                <Avatar  />
-              </IconButton>
+           
 
               <div className="sidebar_chatinfo">
                 <h2>{val.room}</h2>
