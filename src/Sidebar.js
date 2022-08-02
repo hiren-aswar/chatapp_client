@@ -24,11 +24,7 @@ export default function Sidebar({ socket }) {
     socket.emit("room_taken", {
       room: room,
     });
-    if (flag) {
-      setFlag(false);
-    } else {
-      setFlag(true);
-    }
+   
 
     setDependroom(false);
   };
@@ -46,7 +42,7 @@ export default function Sidebar({ socket }) {
     socket.on("okay", (data) => {
       setChatlist(data);
     });
-  }, [flag]);
+  });
 
   return (
     <div className="sidebar">
